@@ -1,0 +1,32 @@
+.bannar{
+    width: 100%;
+    background-image: url('../../../../../public/imgs/Contact-Banner.jpg');
+    height: 700px;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannar .content h1{
+    color: #2C541D;
+    font-size: 100px;
+}
+@media (max-width: 740px){
+    .bannar .content h1{
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 6000px){
+    .bannar .content h1{
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 460px){
+    .bannar .content h1{
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,79 @@
+.mission{
+    display: flex;
+    width: 90%;
+    padding: 10px;
+    gap: 25px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission .mission-left{
+    width: 80%;
+    text-align: center;
+}
+.mission .mission-left .mission-img{
+    width: 600px;
+    height: 100%;
+}
+.mission .mission-right{
+    width: 500px;    
+    margin-left: -120px;
+}
+.mission .mission-right h1{
+    margin-bottom: 45px;
+}
+.mission .mission-right p{
+    margin-top: 25px;
+    color: #585858;
+    font-size: 20px;
+}
+@media(max-width: 1286px){
+    .mission .mission-left{
+        text-align: left;
+    }
+}
+@media (max-width: 1200px){
+    .mission .mission-right{
+        margin-left: 0;
+    }
+}
+@media(max-width: 950px){
+    .mission .mission-right p{
+        font-size: 17px;
+    }
+}
+@media (max-width: 900px){
+    .mission{
+        flex-wrap: wrap;
+        height: 800px;
+    }
+    .mission .mission-right{
+        width: 80%;
+    }
+}
+@media (max-width: 700px){
+    .mission .mission-left .mission-img{
+        width: 500px;
+    }
+}
+@media (max-width: 580px){
+    .mission .mission-left .mission-img{
+        width: 400px;
+    }
+}
+
+@media (max-width: 465px){
+    .mission .mission-left .mission-img{
+        width: 300px;
+    }
+}
+
+@media (max-width: 360px){
+    .mission{
+        gap: 0;
+    }
+    .mission .mission-left .mission-img{
+        width: 200px;
+    }
+}

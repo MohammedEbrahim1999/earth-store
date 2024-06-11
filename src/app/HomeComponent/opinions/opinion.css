@@ -1,0 +1,81 @@
+.opinions {
+    width: 100%;
+    background-color: #FFF;
+    height: 500px;
+    display: block;
+    border-top: 1px solid #EAE9EC;
+}
+.opinions .hone{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.opinions .hone h1{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.opinions .say {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.opinions .say .one,
+.opinions .say .two,
+.opinions .say .three {
+    width: 350px;
+    background-color: #FFF;
+    padding: 10px;
+}
+
+.opinions .say .one span,
+.opinions .say .two span,
+.opinions .say .three span{
+    font-size: 25px;
+}
+
+.opinions .say .one p,
+.opinions .say .two p,
+.opinions .say .three p{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.opinions .say .one .p1,
+.opinions .say .two .p2,
+.opinions .say .three .p3{
+    border-radius: 100%;
+    margin-bottom: 25px;
+}
+@media (max-width: 1110px){
+    .opinions{
+        height: 600px;
+    }
+    .opinions .say{
+        flex-wrap: wrap;
+    }
+    .opinions .hone h1{
+        margin-bottom: 25px;
+        margin-left: 45px;
+    }
+}
+@media (max-width: 740px){
+    .opinions{
+        height: 1000px;
+    }
+    .opinions .hone{
+        display: block;
+    }
+    .opinions .hone h1{
+        margin-left: 0;
+    }
+}
+@media(max-width: 520px){
+    .opinions .hone h1{
+        margin-left: -120px;
+        font-size: 30px;
+    }
+}

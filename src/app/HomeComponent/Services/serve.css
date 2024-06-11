@@ -1,0 +1,64 @@
+.serve {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 1px solid #EAE9EC;
+}
+
+.serve .one,
+.serve .two,
+.serve .three {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.serve .one .pay1,
+.serve .two .pay2,
+.serve .three .pay3{
+    background-color: #2C541D;
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.serve .one .content1,
+.serve .two .content2,
+.serve .three .content3{
+    margin-left: 20px;
+}
+.serve .one .content1 h4,
+.serve .two .content2 h4,
+.serve .three .content3 h4{
+    margin-bottom: 15px;
+}
+.serve .one .content1 p,
+.serve .two .content2 p,
+.serve .three .content3 p{
+    color: #585862;
+}
+
+
+.serve .two .pay2{
+    font-size: 25px;
+}
+@media(max-width: 930px){
+    .serve{
+        flex-wrap: wrap;
+        height: 250px;
+    }
+}
+@media(max-width: 636px){
+    .serve{
+        height: 400px;
+    }
+}
