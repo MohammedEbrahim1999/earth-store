@@ -23,7 +23,7 @@ const Header = () => {
           <div className="right">
             <ul className="lg">
               <li>
-                <a href="http://localhost:3000/"> Home </a>
+                <a href="/"> Home </a>
               </li>
               <li>
                 <a href="/About"> About </a>
@@ -44,7 +44,7 @@ const Header = () => {
       {show && (
         <div className='sm-links'>
           <ul className="sm">
-            <li><a href="http://localhost:3000/"> Home </a> </li>
+            <li><a href="/"> Home </a> </li>
             <li><a href="/About"> About </a></li>
             <li><a href="/Shop"> Shop</a></li>
             <li><a href="/Contact"> Contact </a></li>
