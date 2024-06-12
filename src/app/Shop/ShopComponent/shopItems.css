@@ -327,3 +327,18 @@
 .active {
     color: red !important;
 }
+@media(max-width: 876px){
+    .items{
+        margin-bottom: 3100px;
+    }
+}
+@media(max-width: 611px){
+    .items{
+        margin-bottom: 5900px;
+    }
+}
+@media(max-width: 430px){
+    .items{
+        margin-bottom: 6000px;
+    }
+}
